@@ -16,5 +16,10 @@ int main()
         cout << a << '\n';
     else
         cout << b << '\n';
+    cout << "Min: ";
+    if (a < b)
+        cout << a << '\n';
+    else
+        cout << b << '\n';
     return 0;
 }
